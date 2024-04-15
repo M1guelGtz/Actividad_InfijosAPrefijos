@@ -1,7 +1,3 @@
-import { StackLinkedList } from "../models/StackLinkedList.js";
+import {Conversion } from "../models/Conversion.js";
 
-export const crearLista = function(){
-    let lista = new StackLinkedList()
-    return lista
-}
-
+export let lista = new Conversion()
